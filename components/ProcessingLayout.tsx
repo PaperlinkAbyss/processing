@@ -22,7 +22,7 @@ export const ColorContext = createContext({
 })
 export default function ProcessingLayout({ children }: PropsWithChildren) {
   const [colorActual, seleccionarColorActual] = useState({
-    nombre: 'black',
+    nombre: 'Blanco',
     color: 'rgb(255,255,255)',
   })
   function swapSelectedColor(event: React.MouseEvent<HTMLDivElement, MouseEvent>) {
